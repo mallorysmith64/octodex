@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+// import HelloWorld from './components/HelloWorld'
+import Nav from './components/Nav'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return (
+      <section>
+        <Nav />
+      </section>
+    )
   }
 }
 

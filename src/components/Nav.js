@@ -11,7 +11,6 @@ class Nav extends Component {
           <h1>Follow us on Twitter</h1>
           <h1>Back to GitHub.com</h1>
         </nav>
-        <nav />
       </div>
     )
   }

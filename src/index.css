@@ -14,5 +14,4 @@ body {
 nav {
   display: flex;
   background-color: white;
-  justify-content: flex-start;
 }

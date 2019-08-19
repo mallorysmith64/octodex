@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-// import HelloWorld from './components/HelloWorld'
 import Nav from './components/Nav'
 import OctodexCats from './components/OctodexCats'
 

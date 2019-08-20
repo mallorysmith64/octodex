@@ -12,23 +12,32 @@ body {
   min-height: 100%;
 }
 
-.main-menu {
+.main-menu-left {
   display: flex;
+  justify-content: flex-start;
   background-color: var(--white);
-  padding: 1.4em;
+}
+
+.main-menu-right {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .photo-container {
   display: flex;
+  justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
-  background-color: rgb(180, 62, 62);
+  background-color: rgb(97%, 97%, 98%);
 }
 
 .img-style {
-  height: 600px;
-  margin-top: 4em;
+  display: flex;
+  height: 27em;
+  margin: 3em;
   border-radius: 2em;
+  /* border: thin solid black; */
+  border: 1px #e1e4e8 solid !important;
   background-color: var(--white);
 }

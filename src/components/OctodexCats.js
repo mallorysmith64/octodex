@@ -71,14 +71,15 @@ const Cats = [
 class OctodexCats extends Component {
   render() {
     return (
-      <ul>
-        {Cats.map(cat => {
+      <ul className="photo-style">
+        {Cats.map((cat, key) => {
           return (
             <Cat //this was imported
               number={cat.number}
               name={cat.name}
               imageUrl={cat.imageUrl}
               imageAlt={cat.imageAlt}
+              key={key}
             />
           )
         })}

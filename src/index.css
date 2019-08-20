@@ -15,3 +15,9 @@ nav {
   display: flex;
   background-color: white;
 }
+
+.photo-style {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

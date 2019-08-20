@@ -4,7 +4,11 @@ class Cat extends Component {
   render() {
     return (
       <li>
-        <img src={this.props.imageUrl} alt={this.props.imageAlt} height={600} />
+        <img
+          className="img-style"
+          src={this.props.imageUrl}
+          alt={this.props.imageAlt}
+        />
         <h2>{this.props.number}</h2>
         <h2>{this.props.name}</h2>
       </li>

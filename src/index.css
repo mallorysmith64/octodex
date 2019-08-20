@@ -1,5 +1,6 @@
 :root {
   font: 16px / 1 sans-serif;
+  --white: rgb(100%, 100%, 100%);
 }
 
 html {
@@ -11,13 +12,23 @@ body {
   min-height: 100%;
 }
 
-nav {
+.main-menu {
   display: flex;
-  background-color: white;
+  background-color: var(--white);
+  padding: 1.4em;
 }
 
-.photo-style {
+.photo-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  list-style: none;
+  background-color: rgb(180, 62, 62);
+}
+
+.img-style {
+  height: 600px;
+  margin-top: 4em;
+  border-radius: 2em;
+  background-color: var(--white);
 }

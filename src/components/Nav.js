@@ -4,7 +4,7 @@ class Nav extends Component {
   render() {
     return (
       <div>
-        <nav>
+        <nav className="main-menu">
           <h2>Octodex</h2>
           <h1>Home</h1>
           <h1>FAQ</h1>
@@ -17,5 +17,3 @@ class Nav extends Component {
 }
 
 export default Nav
-
-//only html for nav goes here

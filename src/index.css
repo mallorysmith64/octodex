@@ -12,15 +12,23 @@ body {
   min-height: 100%;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--white);
+}
+
 .main-menu-left {
   display: flex;
-  justify-content: flex-start;
-  background-color: var(--white);
+  margin-left: 2em;
+  align-items: baseline;
+  font-size: 1.5em;
 }
 
 .main-menu-right {
   display: flex;
-  justify-content: flex-end;
+  margin-right: 2em;
+  font-size: 1.5em;
 }
 
 .photo-container {

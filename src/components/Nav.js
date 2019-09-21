@@ -10,8 +10,12 @@ class Nav extends Component {
           <h1>FAQ</h1>
         </section>
         <section class="main-menu-right">
-          <h1>Follow us on Twitter</h1>
-          <h1>Back to GitHub.com</h1>
+          <h1 class="main-menu-right">
+            <a href="https://twitter.com/githubdesign">Follow us on Twitter</a>
+          </h1>
+          <h1 class="main-menu-right">
+            <a href="https://github.com/">Back to GitHub.com</a>
+          </h1>
         </section>
       </nav>
     )

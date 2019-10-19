@@ -7,7 +7,9 @@ class Nav extends Component {
         <section class="main-menu-left">
           <h2>Octodex</h2>
           <h1>Home</h1>
-          <h1>FAQ</h1>
+          <h1>
+            <a href="https://octodex.github.com/faq/">FAQ</a>
+          </h1>
         </section>
         <section class="main-menu-right">
           <h1 class="main-menu-right">

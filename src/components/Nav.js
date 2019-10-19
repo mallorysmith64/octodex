@@ -5,7 +5,9 @@ class Nav extends Component {
     return (
       <nav>
         <section class="main-menu-left">
-          <h2>Octodex</h2>
+          <h2>
+            <a href="https://octodex.github.com/">Octodex</a>
+          </h2>
           <h1>Home</h1>
           <h1>
             <a href="https://octodex.github.com/faq/">FAQ</a>

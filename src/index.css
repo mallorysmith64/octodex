@@ -43,12 +43,12 @@ a {
   flex-wrap: wrap;
   list-style: none;
   background-color: rgb(97%, 97%, 98%);
+  padding-top: 2em;
 }
 
 .img-style {
   display: flex;
-  height: 27em;
-  margin: 3em;
+  height: 17em;
   border-radius: 2em;
   /* border: thin solid black; */
   border: 1px #e1e4e8 solid !important;

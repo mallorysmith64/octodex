@@ -12,23 +12,9 @@ body {
   min-height: 100%;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--white);
-}
-
-.main-menu-left {
-  display: flex;
-  margin-left: 2em;
-  align-items: baseline;
-  font-size: 1.5em;
-}
-
-.main-menu-right {
-  display: flex;
-  margin-right: 2em;
-  /* font-size: 1.5em; */
+.navbar-start,
+.navbar-end {
+  font-weight: bold;
 }
 
 a {
@@ -50,7 +36,6 @@ a {
   display: flex;
   height: 17em;
   border-radius: 2em;
-  /* border: thin solid black; */
   border: 1px #e1e4e8 solid !important;
   background-color: var(--white);
 }

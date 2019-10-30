@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Nav from './components/Nav'
 import OctodexCats from './components/OctodexCats'
+import 'bulma/css/bulma.css'
 
 class App extends Component {
   render() {

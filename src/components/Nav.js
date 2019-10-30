@@ -3,25 +3,37 @@ import React, { Component } from 'react'
 class Nav extends Component {
   render() {
     return (
-      <nav>
-        <section class="main-menu-left">
-          <h2>
-            <a href="https://octodex.github.com/">Octodex</a>
+      <>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <h2 class="navbar-start">
+              <a href="https://octodex.github.com/" class="navbar-item">
+                Octodex
+              </a>
+            </h2>
+          </div>
+
+          <h2 class="navbar-start">
+            <a href="https://octodex.github.com/" class="navbar-item">
+              Home
+            </a>
+
+            <a href="https://octodex.github.com/faq/" class="navbar-item">
+              FAQ
+            </a>
           </h2>
-          <h1>Home</h1>
-          <h1>
-            <a href="https://octodex.github.com/faq/">FAQ</a>
-          </h1>
-        </section>
-        <section class="main-menu-right">
-          <h1 class="main-menu-right">
-            <a href="https://twitter.com/githubdesign">Follow us on Twitter</a>
-          </h1>
-          <h1 class="main-menu-right">
-            <a href="https://github.com/">Back to GitHub.com</a>
-          </h1>
-        </section>
-      </nav>
+
+          <h2 class="navbar-end">
+            <a href="https://twitter.com/githubdesign" class="navbar-item">
+              Follow us on Twitter
+            </a>
+
+            <a href="https://github.com/" class="navbar-item">
+              Back to GitHub.com
+            </a>
+          </h2>
+        </nav>
+      </>
     )
   }
 }

@@ -1,30 +1,19 @@
-# Octodex
+**Welcome to Octodex!** :smiley: </br>
 
-React-ify Octocats
-Octodex is a fun way to celebrate a powerful tool we use for development. In that same spirit, recreate this site
+Objective: Remake [GitHub Octodex](https://octodex.github.com/) </br>
 
-You'll identify the main Components on the page and create React components for each, breaking down those Components into smaller ones as needed.
+Technologies Used: React.js, Netlify, Bulma CSS Framework, CSS Flexbox, HTML5 </br>
 
-Objectives
-- Learn to identify parts of a web site as Components
-- Use app-app (GAMMA stack) to build a React project
-- Understand and use React components
-- Stretch Objectives
-- Understand and use "props" in React
-- Use Array.prototype.map to render a collection of components in React
+Checkout SpaceX here: https://octodex-mallorysmith64.netlify.com/ </br>
 
-Explorer Mode:
- Figure out the main components of the page. These will be the main components in your <App> component.
- Create your React app
- Your CSS should be in index.css
- You should have at least two components...
- Clear out the implementation in the render method of App and have it render your main components.
- Use props to try to reuse components
-  
-Adventure Mode:
- Place the definition of each Octocat in an array of objects and use map to generate the Octocat components
- 
-Epic Mode:
- Put the array of Octocats in a octocats.json file and import that into your app.
-OR
- Use the fetch api to retrieve the list of Octocats from this api instead
+To run this project locally: git clone https://github.com/mallorysmith64/octodex.git </br>
+cd octodex </br>
+yarn install </br>
+yarn start </br>
+
+Cheers. </br>
+
+Note: "yarn install is used to install all dependencies for a project. </br>
+This is most commonly used when you have just checked out code for a project </br>
+or when another developer on the project has added a new dependency that you need to pick up." </br>
+Source: https://yarnpkg.com/en/docs/cli/install

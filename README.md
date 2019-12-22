@@ -4,7 +4,7 @@ Objective: Remake [GitHub Octodex](https://octodex.github.com/) </br>
 
 Technologies Used: React.js, Netlify, Bulma CSS Framework, CSS Flexbox, HTML5 </br>
 
-Checkout SpaceX here: https://octodex-mallorysmith64.netlify.com/ </br>
+Checkout my version of Octodex here: https://octodex-mallorysmith64.netlify.com/ </br>
 
 To run this project locally: git clone https://github.com/mallorysmith64/octodex.git </br>
 cd octodex </br>
